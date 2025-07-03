@@ -2,7 +2,12 @@
 <html lang="ja">
 
 <head>
-
+    <meta charset="utf-8"> <!--文字コードの指定-->
+    <title1></title1> <!-- タイトル-->
+    <link rel="stylesheet" href="css/style.css"> <!-- cssの読み込み-->
+    <!-- ↓↓レスポンシブデザインを行うための設定 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/index.js"></script>
 </head>
 
 <body>
@@ -10,7 +15,8 @@
     <h1>suzurectのポートフォリオ</h1>
 
     <h2>自己紹介</h2>
-
+    <p class="main-text">初めてのWebページ作成です。<br>
+        よろしくお願いします！</p>
     <h3>生年月日</h3>
     <p>1994年4月6日(31歳)</p>
     
@@ -30,9 +36,10 @@
         <li>「Re:ProS(レプロス)」　初級コース授業資料作成</li>
         <li>各SNS更新
             <ul>
-                <li>Instagram</li>
-                <li>YouTube</li>
-                <li>Re:ProSメディア</li>
+                <li><a href="https://www.instagram.com/repros_programming/">Instagram</a></li>
+                <li><a href="https://www.youtube.com/@re-ct-official">YouTube</a></li>
+                <li><a href="https://re-ct.co.jp/articles/">Re:ProSメディア</a></li>
+                
             </ul>
         </li>
     </ul>
@@ -49,7 +56,28 @@
     <p>初級コース授業資料作成を通して基本的なプログラミングはできると思っています。</p>
     <p>子供たちが面白いと思えて、プログラミング的思考が身につくゲームを作ることを心がけています！</p>
 
+    <section class="art">
     <h2>作品</h2>
+            <ul>
+                <li>
+                    <div class="art-img"><img src="img/1.png" alt="Scratchの伝説"></div>
+                    <div><h3>Scratchの伝説</h3><p>ネコがドラゴンを倒すとクリアです！<br>
+                    鍵や宝石を取ると・・・</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="art-img"><img src="img/2.png" alt="ネコシューティング"></div>
+                    <div><h3>ネコシューティング</h3><p>ネコが発射する弾が肉球になっています！</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="art-img"><img src="img/3.png" alt="ミニレース"></div>
+                    <div><h3>ミニレース</h3><p>自動で走る車を操作してなるべく早くゴールしよう！<br>
+                    道以外は遅くなって、風船を取ると・・・</p>
+                    </div>
+                </li>
+            </ul>
+    </section>
 
     <h2>連絡先</h2>
     <p>メール：suzuki.yuki@re-ct.co.jp</p>
